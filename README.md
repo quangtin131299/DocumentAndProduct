@@ -28,16 +28,14 @@
   <h3 align="center">XÂY DỰNG ỨNG DỤNG ĐẶT MÓN BOOFOOD</h3>
 
   <p align="center">
-    Một vài sơ lược về đề tài!
     <br />
     <br />
-	Sinh Viên Thực Hiện!
+	Sinh Viên Thực Hiện
+	<br />
 	<br />
     <a href="https://www.facebook.com/lexuanhau99">Lê Xuân Hậu</a>
     ·
     <a href="https://www.facebook.com/fuzethien">Trần Ngọc Thiên</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </p>
 
@@ -45,7 +43,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Mục lục</summary>
   <ol>
     <li>
       <a href="#about-the-project">Giới Thiệu Về Đề Tài</a>
@@ -75,25 +73,26 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Hình 1.1: Hình ảnh giới thiệu ứng dụng.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Dây là đâu:
+* Trong quảng thời gian ngắn của Luận Văn Tốt Nghiệp hi vọng những gì chúng em mang lại nhận được nhiều đánh giá và góp ý để chúng em có thể cải thiện và phát triển trong tương lai.
+* Ứng dụng hiện thực trên nền tảng android và nền tảng web.
+* Hiện tại đã có phiên bản productions đã triển khai trên kho ứng dụng CHPlay dành cho thiết bị android.
+* Hi vọng nó sẽ mang lại trãi nghiệm tốt cho các bạn, và hãy để lại cho chúng tôi í kiến nhé.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+Ứng dụng được viết bởi các ngôn ngữ sau và thư viện sau:
+* [Java](https://go.java)
+* [ReactJs](https://reactjs.org)
+* [NodeJs](https://nodejs.org)
 
-
+Ứng dụng được triển khai như sau:
+* [Database](https://azure.microsoft.com)
+* [Server](https://www.heroku.com)
+* [App-BooFood](https://play.google.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
