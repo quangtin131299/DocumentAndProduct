@@ -1,4 +1,4 @@
 # ĐỀ TÀI XÂY DỰNG ỨNG DỤNG ĐẶT MÓN BOOFOOD
-# SINH VIÊN THỰC HIỆN: 
+- SINH VIÊN THỰC HIỆN: 
 -- LÊ XUÂN HẬU
 -- TRẦN NGỌC THIÊN
