@@ -59,8 +59,8 @@
         <li><a href="#installation">Cài đặt và triển khai</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Tài liệu hệ thống</a></li>
-    <li><a href="#roadmap">Ứng dụng thực tế</a></li>
+    <li><a href="#document">Tài liệu hệ thống</a></li>
+    <li><a href="#download">Ứng dụng thực tế</a></li>
     <li><a href="#license">Giấy phép</a></li>
     <li><a href="#contact">Liên hệ</a></li>
   </ol>
@@ -76,10 +76,10 @@
 Hình 1.1: Hình ảnh giới thiệu ứng dụng.
 
 Dây là đâu:
-* Trong quảng thời gian ngắn của Luận Văn Tốt Nghiệp hi vọng những gì chúng em mang lại nhận được nhiều đánh giá và góp ý để chúng em có thể cải thiện và phát triển trong tương lai.
+* Trong quảng thời gian ngắn của Luận Văn Tốt Nghiệp hi vọng những gì chúng em mang lại nhận được nhiều đánh giá và góp ý để nhóm có thể cải thiện và phát triển trong tương lai.
 * Ứng dụng hiện thực trên nền tảng android và nền tảng web.
 * Hiện tại đã có phiên bản productions đã triển khai trên kho ứng dụng CHPlay dành cho thiết bị android.
-* Hi vọng nó sẽ mang lại trãi nghiệm tốt cho các bạn, và hãy để lại cho chúng tôi í kiến nhé.
+* Hi vọng nó sẽ mang lại trãi nghiệm tốt cho các bạn, và hãy để lại cho chúng tôi ý kiến nhé.
 
 
 ### Built With
@@ -88,6 +88,7 @@ Dây là đâu:
 * [Java](https://go.java)
 * [ReactJs](https://reactjs.org)
 * [NodeJs](https://nodejs.org)
+* [MySQL](https://www.mysql.com/)
 
 Ứng dụng được triển khai như sau:
 * [Database](https://azure.microsoft.com)
@@ -102,56 +103,130 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Hệ thống có thể triển khải trên các nền tảng hệ điều hành Windows lẫn MacOS, Linux. Chỉ cần cấu hình để có thể chạy được NodeJs, MySQL, Android Studio
+
+[NodeJs][ExpressJs] -- Triển khai server và API
+
+[MySQL] -- Triển khai Hệ quản trị CSDL
+
+[Android Studio] -- Xây dựng ứng dụng android
+
+[Android Emulator] -- Thiết bị chạy ứng dụng. -- Lưu ý: Cần hổ trợ GPS.
+
+[Ngrok] -- Public Ip Local ra internet
+
+Chỉ cần cài đặt và cấu hình.
 
 ### Installation
+ 
+1. Tạo tài khoản git-lab liên hệ [lexuanhau99@gmail] để được add vào.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+2. tải xuống source code server về máy
+
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://gitlab.com/lexuanhau99/lvtn-boofood.git
    ```
-3. Install NPM packages
+   
+3. Tải xuống source code android về máy
+
    ```sh
-   npm install
+   git clone https://gitlab.com/lexuanhau99/boofood-app.git
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+   
+   ```sh
+   git clone https://gitlab.com/lexuanhau99/app-merchant-boo.git
+   ```
+   
+   ```sh
+   git clone https://gitlab.com/lexuanhau99/driver-boo.git
+   ```
+   
+4. Cài đặt thư viện cho project
+
+   ```sh
+   npm run lib
+   ```
+   
+5. Cài đặt thư viện cho project web
+
+   ```sh
+   npm run lib-fe
+   ```
+   
+	```sh
+   npm run lib-mc
+   ```
+   
+6. Cấu hình cho key cho và password cho DB ở .ENV ở root
+
+7. Cấu hình mailService cho root/configs/configEmail.js
+
+8. Cấu hình FCM Service cho root/configs/configFirebase.js
+
+9. Chạy ứng dụng với 3 terminal
+```sh
+   npm run be
+   ```
+   
+	```sh
+   npm run fe
+   ```
+   
+   ```sh
+   npm run mc
+   ```
+10. Sau khi ứng dụng biuld thành công sẽ xuất hiện lệnh sau.
+
+	```sh
+	Server running on port: http://localhost:3100
+	Connected to the MySQL server.
+	{ status: false, message: 'Administrator account has been created.' } 
    ```
 
+<!-- Document EXAMPLES -->
+## Document
+
+1. Lược đồ quan hệ ERD
+[https://drive.google.com/file/d/1kKjPk0qD7Q8oPvcwKCFqOURNrJ84cAF9/view?usp=sharing]
+
+[https://drive.google.com/file/d/1UPQsBQF2z40QlPTzaBHMkCQqjoqkZNPd/view?usp=sharing]
+
+2. File DOC Luận Văn Tốt Nghiệp
+
+[https://drive.google.com/file/d/1FFFiE0NRNXlUNuuDKAaFdU-1iGjxUFsA/view?usp=sharing]
+
+3. File Trình Bài Powerpoint
+
+[https://docs.google.com/presentation/d/1nYuqH8TK9qtUC8YWEk1_VOFw6CuBs_1X/edit?usp=sharing&ouid=117094946688487088045&rtpof=true&sd=true]
+
+4. Cập thêm sau khi hoàn tất.
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Download -->
+## Download
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. BooFood
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+	1.1. CHPlay
+	
+	
+	1.2. Tải trực tiếp.
+	
 
+2. Merchant
 
+	2.1 CHPlay
+	
 
-<!-- ROADMAP -->
-## Roadmap
+	2.2 Tải trực tiếp
+	
+	
+3. Rider
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+	3.1 CHPlay
+	
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+	3.2 Tải trực tiếp
 
 
 
@@ -169,21 +244,6 @@ Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.c
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
 
 
 
