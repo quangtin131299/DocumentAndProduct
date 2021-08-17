@@ -75,7 +75,7 @@
 
 Hình 1.1: Hình ảnh giới thiệu ứng dụng.
 
-Dây là đâu:
+Đây là đâu:
 * Trong quảng thời gian ngắn của Luận Văn Tốt Nghiệp hi vọng những gì chúng em mang lại nhận được nhiều đánh giá và góp ý để nhóm có thể cải thiện và phát triển trong tương lai.
 * Ứng dụng hiện thực trên nền tảng android và nền tảng web.
 * Hiện tại đã có phiên bản productions đã triển khai trên kho ứng dụng CHPlay dành cho thiết bị android.
