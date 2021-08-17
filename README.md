@@ -185,6 +185,8 @@ Chỉ cần cài đặt và cấu hình.
 	{ status: false, message: 'Administrator account has been created.' } 
    ```
 
+
+
 <!-- Document EXAMPLES -->
 ## Document
 
@@ -242,13 +244,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-
+LÊ XUÂN HÂU/ Hagrid - [@your_facebook](https://www.facebook.com/lexuanhau99) - lexuanhau99@gmail.com
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
