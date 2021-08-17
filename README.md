@@ -178,14 +178,11 @@ Chỉ cần cài đặt và cấu hình.
    ```
    
 10. Sau khi ứng dụng biuld thành công sẽ xuất hiện lệnh sau.
-
 	```sh
 	Server running on port: http://localhost:3100
 	Connected to the MySQL server.
 	{ status: false, message: 'Administrator account has been created.' } 
-   ```
-
-
+   	```
 
 <!-- Document EXAMPLES -->
 ## Document
