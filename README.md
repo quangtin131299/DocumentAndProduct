@@ -164,7 +164,8 @@ Chỉ cần cài đặt và cấu hình.
 8. Cấu hình FCM Service cho root/configs/configFirebase.js
 
 9. Chạy ứng dụng với 3 terminal
-```sh
+
+	```sh
    npm run be
    ```
    
@@ -175,6 +176,7 @@ Chỉ cần cài đặt và cấu hình.
    ```sh
    npm run mc
    ```
+   
 10. Sau khi ứng dụng biuld thành công sẽ xuất hiện lệnh sau.
 
 	```sh
