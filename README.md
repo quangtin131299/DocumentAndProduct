@@ -243,7 +243,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-LÊ XUÂN HÂU/ Hagrid - [@your_facebook](https://www.facebook.com/lexuanhau99) - lexuanhau99@gmail.com
+LÊ XUÂN HẬU/ Hagrid - [@your_facebook](https://www.facebook.com/lexuanhau99) - lexuanhau99@gmail.com
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
