@@ -98,8 +98,10 @@ Dây là đâu:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Nhu cầu mua hàng trực tuyến ngày càng tăng trong xã hội hiện đại ngày nay, chính vì lý do đó nhu cầu mua đồ ăn trực tuyến cũng không ngoại lệ. Sự ra đời các ứng dụng hỗ trợ việc đặt món cũng như thanh toán trực tuyến giúp phần nào thỏa mãn và đáp ứng nhu cầu. Vì lẽ đó nhóm chúng em chọn đề tài XÂY DỰNG ỨNG DỤNG ĐẶT MÓN để bắt kịp với xu hướng phát triển.
+
+Bên cạnh việc tiện lợi mang lại cho người dùng thì việc kinh doanh trên nền tảng số vẫn đang và sẽ là xu thế trên thế giới hiện nay. Nên việc chuyển đổi số từ truyền thống sang nền tảng trực tuyến là sự thay đổi tất yếu. Nền tảng cung cấp cho đối tác một gian hàng đúng nghĩa họ có thể tuỳ chỉnh cách bày trí của mình và tạo ra món ăn với nhiều tuỳ chọn sát nhất với thực tế.
+
 
 ### Prerequisites
 
